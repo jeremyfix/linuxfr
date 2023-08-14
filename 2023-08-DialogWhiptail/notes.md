@@ -27,8 +27,19 @@ Une librairie pour des interfaces utilisateurs en mode texte, avec couleur et wi
 
 Elle fournit un ensemble de widgets, dans sa version actuelle : bouton, formulaire, checkbox, entry, label, listbox, scrollbar, textbox, scale, grid, windows, buttonbar, checkboxtree. 
 
-En plus de la librairie, il y a un wrapper python : snack
+En plus de la librairie, il y a un wrapper python : snack, un wrapper TCL (whiptcl).
 
 Et également un utilitaire en ligne de commande : whiptail
 
 Lien archive vers tuto Newt : https://web.archive.org/web/20170124075941/http://gnewt.sourceforge.net/tutorial.html
+
+## Utilisation de newt en C, python, shell, TCL
+
+libnewt
+
+newt python : snack , avec des exemples : https://www.cnblogs.com/lexus/archive/2012/02/26/2368378.html
+
+newt et tclsh : whiptcl
+
+newt et bash : whiptail
+
