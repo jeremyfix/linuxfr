@@ -6,6 +6,10 @@ Liens :
 
 - fil stackoverflow sur les toolkits python bindings curses :https://stackoverflow.com/questions/8631082/are-there-any-toolkit-libraries-for-curses-with-python-bindings 
 
+- Conception d'interfaces graphiques simples avec dialog/Xdialog : https://ftp.traduc.org/doc-vf/gazette-linux/html/2004/101/lg101-P.html
+
+- Des exemples whiptail et dialog https://funprojects.blog/2022/04/06/text-interfaces-with-whiptail-and-dialog/
+
 # S-lang, Newt et whiptail
 
 
@@ -42,4 +46,32 @@ newt python : snack , avec des exemples : https://www.cnblogs.com/lexus/archive/
 newt et tclsh : whiptcl
 
 newt et bash : whiptail
+
+# CDK
+
+On en trouve mention sur le page de dialog (la v2, par T. Dickey) . Et c'est lui aussi qui maintient CDK ?
+
+https://invisible-island.net/cdk/cdk.html
+
+# Dialog
+
+## Version d'origine
+
+Code source: https://hightek.org/projects/dialog/
+
+On trouve un historique sur : https://hightek.org/projects/dialog/
+
+et surtout: https://invisible-island.net/dialog/
+
+Page wikipedia : https://en.wikipedia.org/wiki/Dialog_(software)
+
+## Les forks/alternatives
+
+On en trouve plusieurs dans la man page de dialog et une explication sur la page invisible-island.
+
+
+## Utilisation de dialog en C et shell
+
+
+
 
