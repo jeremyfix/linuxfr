@@ -10,18 +10,26 @@ Liens :
 
 - Des exemples whiptail et dialog https://funprojects.blog/2022/04/06/text-interfaces-with-whiptail-and-dialog/
 
-# S-lang, Newt et whiptail
+# Whiptail et Dialog
+
+On trouve principalement deux arborescences de projet pour la création d'interface utilisateurs en ligne de commande : 
+
+- la branche basée sur S-Lang et Newt, facilement installable sur les tout les systèmes debian (https://packages.debian.org/bookworm/whiptail)
+- la branche basée sur n-curses et dialog, facilement installable sur les tout les systèmes Redhat (e.g. CentOS, Fedora, ..)
+
 
 
 ## S-Lang
 
-Dépends de la librairie s-lang, développée en 1992 (http://jedsoft.org/slang/doc/html/slang-1.html#ss1.1) par John E. Davis (jed).
+Dépends de la librairie s-lang, développée à partir de 1992 (http://jedsoft.org/slang/doc/html/slang-1.html#ss1.1) par John E. Davis (jed).
 
 S-lang est d'ailleurs utilisé par plusieurs autres outils (http://jedsoft.org/slang/apps.html) : nano,  midnight commander, un éditeur de texte jed, 
 
 S-lang gère l'écran (SLsmg_xxx), le clavier (SLang_init_tty, SLang_getkey, ...). Voir la page de documentation https://www.jedsoft.org/slang/doc/html/cslang.html : Interpréteur, Clavier, Saisie de texte, écran, ..
 
 C'est une librairie multiplateforme (MSDOS, OS/2, Unix, VMS)
+
+Newt utilise s-lang.
 
 ## Newt
 
